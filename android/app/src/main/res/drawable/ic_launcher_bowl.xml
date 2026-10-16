@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Empty soup bowl. Kept inside the adaptive icon's 66dp safe zone (21..87) so no launcher mask clips it -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Scaled up a bit and moved up so the bowl sits optically centered -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:translateY="-9">
+        <!-- Shadow -->
+        <path
+            android:fillColor="#26000000"
+            android:pathData="M32,82a22,3 0,1 0,44 0a22,3 0,1 0,-44 0z" />
+        <!-- Foot -->
+        <path
+            android:fillColor="#9E3B28"
+            android:pathData="M44,74L64,74L62,81.5Q54,83 46,81.5Z" />
+        <!-- Body -->
+        <path
+            android:fillColor="#C8553D"
+            android:pathData="M27,52C27,68 39,78 54,78C69,78 81,68 81,52Z" />
+        <!-- Body band -->
+        <path
+            android:strokeColor="#F2C14E"
+            android:strokeWidth="2.2"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round"
+            android:pathData="M30.5,61C35,67.5 44,71 54,71C64,71 73,67.5 77.5,61" />
+        <!-- Highlight -->
+        <path
+            android:strokeColor="#59FFFFFF"
+            android:strokeWidth="2.5"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round"
+            android:pathData="M33,56C33.5,59.5 35,62.5 37,64.5" />
+        <!-- Rim -->
+        <path
+            android:fillColor="#E07A5F"
+            android:pathData="M27,52a27,7.5 0,1 0,54 0a27,7.5 0,1 0,-54 0z" />
+        <!-- Empty inside -->
+        <path
+            android:fillColor="#F7ECDD"
+            android:pathData="M30.5,52.3a23.5,5.6 0,1 0,47 0a23.5,5.6 0,1 0,-47 0z" />
+        <!-- Inner wall shade (back of the bowl) -->
+        <path
+            android:fillColor="#E6D3BC"
+            android:pathData="M30.5,52.3a23.5,5.6 0,0 1,47 0C70,49.8 38,49.8 30.5,52.3z" />
+    </group>
+</vector>

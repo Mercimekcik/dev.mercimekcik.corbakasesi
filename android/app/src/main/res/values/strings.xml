@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Çorba Kasesi</string>
+    <string name="start_game">Başlat</string>
+    <string name="start_saves">Kayıtlar</string>
+    <string name="start_settings">Ayarlar</string>
+    <string name="start_no_games">APK içinde oyun bulunamadı (assets/game/data.win)</string>
+    <string name="start_load_failed">Oyun yüklenemedi: %1$s</string>
+</resources>

@@ -1,0 +1,23 @@
+# Build output and caches
+.gradle/
+.kotlin/
+build/
+app/.cxx/
+*.apk
+*.aab
+
+# Machine specific settings and signing keys (never commit these)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Games are not part of the source code, they only ship inside the release APKs
+app/src/main/assets/game*/
+# Start screen logo and description of each game (game specific, like the games themselves)
+app/src/main/assets/launcher/

@@ -1,0 +1,15 @@
+diff --git a/src/gl/gl_renderer.c b/src/gl/gl_renderer.c
+index b19aece..1e73429 100644
+--- a/src/gl/gl_renderer.c
++++ b/src/gl/gl_renderer.c
+@@ -3247,7 +3247,9 @@ Renderer* GLRenderer_create(void) {
+     GLModernRenderer* modernGl = (GLModernRenderer *)safeCalloc(1, sizeof(GLModernRenderer));
+     GLRenderer* gl = &modernGl->base;
+     gl->glMode = GL_MODE_MODERN;
+-    
++    // Default to 32bpp, frontends that don't go through loop.c's arg parsing (like Android) never set these
++    gl->textureFormat = GL_RGBA;
++
+     Renderer* base = &gl->base;
+     base->vtable = &glVtable;
+     
